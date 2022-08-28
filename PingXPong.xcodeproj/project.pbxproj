@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		ED34A58328BA894A006B5AC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED34A58228BA894A006B5AC4 /* AppDelegate.swift */; };
 		ED34A58528BA894A006B5AC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED34A58428BA894A006B5AC4 /* SceneDelegate.swift */; };
-		ED34A58728BA894A006B5AC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED34A58628BA894A006B5AC4 /* ViewController.swift */; };
+		ED34A58728BA894A006B5AC4 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED34A58628BA894A006B5AC4 /* PlayersViewController.swift */; };
 		ED34A58A28BA894A006B5AC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED34A58828BA894A006B5AC4 /* Main.storyboard */; };
 		ED34A58C28BA894A006B5AC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED34A58B28BA894A006B5AC4 /* Assets.xcassets */; };
 		ED34A58F28BA894A006B5AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED34A58D28BA894A006B5AC4 /* LaunchScreen.storyboard */; };
+		ED34A59728BA8D7C006B5AC4 /* MatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED34A59628BA8D7C006B5AC4 /* MatchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ED34A57F28BA894A006B5AC4 /* PingXPong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingXPong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED34A58228BA894A006B5AC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED34A58428BA894A006B5AC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ED34A58628BA894A006B5AC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED34A58628BA894A006B5AC4 /* PlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
 		ED34A58928BA894A006B5AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED34A58B28BA894A006B5AC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED34A58E28BA894A006B5AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED34A59028BA894A006B5AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED34A59628BA8D7C006B5AC4 /* MatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				ED34A58228BA894A006B5AC4 /* AppDelegate.swift */,
 				ED34A58428BA894A006B5AC4 /* SceneDelegate.swift */,
-				ED34A58628BA894A006B5AC4 /* ViewController.swift */,
+				ED34A58628BA894A006B5AC4 /* PlayersViewController.swift */,
+				ED34A59628BA8D7C006B5AC4 /* MatchViewController.swift */,
 				ED34A58828BA894A006B5AC4 /* Main.storyboard */,
 				ED34A58B28BA894A006B5AC4 /* Assets.xcassets */,
 				ED34A58D28BA894A006B5AC4 /* LaunchScreen.storyboard */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED34A58728BA894A006B5AC4 /* ViewController.swift in Sources */,
+				ED34A59728BA8D7C006B5AC4 /* MatchViewController.swift in Sources */,
+				ED34A58728BA894A006B5AC4 /* PlayersViewController.swift in Sources */,
 				ED34A58328BA894A006B5AC4 /* AppDelegate.swift in Sources */,
 				ED34A58528BA894A006B5AC4 /* SceneDelegate.swift in Sources */,
 			);
@@ -287,6 +291,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6HVQ234J3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PingXPong/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -303,7 +308,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -314,6 +319,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6HVQ234J3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PingXPong/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -330,7 +336,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
